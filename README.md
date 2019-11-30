@@ -11,8 +11,9 @@ This project is to calculate the distance between two different coordinates of t
 The calculation is done using normal geographical GMT standards based on approximate radius of the earth while converting the longitudinal and latitudinal points into radian. The function does not use the standard google API.
 The schedule and time import function is used to make its run calibration for every 10 minutes and will append the results of each run into a CSV file (outfile.csv)
 
+
 Technologies/Tools required:
-PyCharm 2.5
+PyCharm 2.5;
 Python 3.6
 
 Setup:
