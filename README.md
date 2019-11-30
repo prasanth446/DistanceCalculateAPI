@@ -7,9 +7,9 @@
 * Brief about the Code
 
 General info:
-This is a project where we have to code in the python and calculating the distance between two coordinates by using the REST-API calls (without using the Google Maps module directly)
-The input coordinate points, can be passed into the program directly or if we want we can get/read these input coordinate (Lat, Long) points from some data source also.
-This Program will be executed automatically for every 10 minutes9if we want we can change this scheduling time) and will append the results from each run into rows of a CSV file (outfile.csv)
+This project is to calculate the distance between two different coordinates of the earth. It will felicitate the distance calculation of any moving objects. The result will be written in csv file and its execution is scheduled as automatic.
+The calculation is done using normal geographical GMT standards based on approximate radius of the earth while converting the longitudinal and latitudinal points into radian. The function does not use the standard google API.
+The schedule and time import function is used to make its run calibration for every 10 minutes and will append the results of each run into a CSV file (outfile.csv)
 
 Technologies/Tools required:
 PyCharm 2.5
